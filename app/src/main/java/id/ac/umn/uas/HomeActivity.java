@@ -29,7 +29,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void searchHotel(View v){
-        Intent intent = new Intent(getApplicationContext(), SearchActivity.class);
+        Intent intent = new Intent(HomeActivity.this, SearchActivity.class);
         startActivity(intent);
     }
 }
